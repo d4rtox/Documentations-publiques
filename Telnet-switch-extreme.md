@@ -25,9 +25,15 @@
 
     #configure aaa user add (nom_utilisateur) password (mot_de_passe)
 
+
 ### Configurer l'authentification locale pour Telnet :
 
     #configure aaa authentication telnet local
+
+
+### Vérification :
+
+    #show aaa
 
 
 ## Connexion au telnet :
