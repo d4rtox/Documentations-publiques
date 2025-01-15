@@ -11,7 +11,7 @@
 
 ### - Mot de passe telnet :
 
-  #configure telnet password "monmotdepasse"
+    #configure telnet password "monmotdepasse"
 
 ### - Vérifier la configuration :
 
