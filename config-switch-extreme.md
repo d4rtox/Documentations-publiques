@@ -6,6 +6,11 @@
 	#Create vlan (nom du vlan) tag (num vlan)
 
 
+### - Ajouter un descriptions à un port :
+
+	#configure port 1 display-string "voir déscription"
+ 
+
 ### - Ajout d'une IP à un VLAN :
 
 	#configure vlan (nom du vlan) ipaddress (adresse ip)
@@ -61,7 +66,3 @@
 ### - Voir le details d'un vlan :
 
 	#show vlan (numéro de vlan) detail
-
-
-
-
