@@ -19,7 +19,8 @@
 ### - Vérifier la configuration :
 
     #show telnet
-
+    
+####                         ----- Optionnel -----
 ### - Ajout d'un utilisateur pour le telnet (optionnel) :
 
     #configure aaa user add (nom_utilisateur) password (mot_de_passe)
