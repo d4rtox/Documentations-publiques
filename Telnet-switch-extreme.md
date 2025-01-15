@@ -5,17 +5,28 @@
     #create vlan (nom du vlan ex: admin) tag (numéro vlan souhaité ex: 50)
     #configure (numéro du vlan admin donc 50 dans mon cas) ipaddress (ip) (masque)
 
+
 ### - Activation du telnet :
 
     #enable telnet
+
 
 ### - Mot de passe telnet :
 
     #configure telnet password "monmotdepasse"
 
+
 ### - Vérifier la configuration :
 
     #show telnet
+
+### - Ajout d'un utilisateur pour le telnet (optionnel) :
+
+    #configure aaa user add (nom_utilisateur) password (mot_de_passe)
+
+### Configurer l'authentification locale pour Telnet :
+
+    #configure aaa authentication telnet local
 
 
 ## Connexion au telnet :
@@ -23,6 +34,7 @@
 ### - Pré-requis :
 
 Se brancher sur un port du vlan admin.
+
 
 ### - Deux solutions de connexion :
 
@@ -37,6 +49,7 @@ Il faut saisir :
   - séléctonner "other" et options telnet
 
 Puis cliquez sur "Open"
+
 
 #### 2 - Terminal
 
