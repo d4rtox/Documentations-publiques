@@ -2,12 +2,12 @@
 
 ### - Créer un vlan avec IP :
 
-  #create vlan (nom du vlan ex: admin) tag (numéro vlan souhaité ex: 50)
-  #configure (numéro du vlan admin donc 50 dans mon cas) ipaddress (ip) (masque)
+    #create vlan (nom du vlan ex: admin) tag (numéro vlan souhaité ex: 50)
+    #configure (numéro du vlan admin donc 50 dans mon cas) ipaddress (ip) (masque)
 
 ### - Activation du telnet :
 
-  #enable telnet
+    #enable telnet
 
 ### - Mot de passe telnet :
 
@@ -15,7 +15,7 @@
 
 ### - Vérifier la configuration :
 
-  #show telnet
+    #show telnet
 
 
 ## Connexion au telnet :
@@ -40,4 +40,4 @@ Puis cliquez sur "Open"
 
 #### 2 - Terminal
 
-  #telnet admin@(ip du vlan admin)
+    #telnet admin@(ip du vlan admin)
