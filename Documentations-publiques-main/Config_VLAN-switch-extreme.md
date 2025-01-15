@@ -1,9 +1,8 @@
-# ( En développement...)
 ## Administration Switch Extreme :
 
 ### - Création d'un VLAN :
 
-	#Create vlan (nom du vlan) tag (num vlan)
+	<pre> #Create vlan (nom du vlan) tag (num vlan)
 
 
 ### - Ajouter un descriptions à un port :
