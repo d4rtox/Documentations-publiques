@@ -2,7 +2,7 @@
 
 ### - Création d'un VLAN :
 
-	<space> #Create vlan (nom du vlan) tag (num vlan)
+&nbsp; #Create vlan (nom du vlan) tag (num vlan)
 
 
 ### - Ajouter un descriptions à un port :
