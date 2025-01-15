@@ -21,11 +21,11 @@
     #show telnet
     
 ####                         ----- Optionnel -----
-### - Ajout d'un utilisateur pour le telnet (optionnel) :
+### - Ajout d'un utilisateur pour le telnet :
 
     #configure aaa user add (nom_utilisateur) password (mot_de_passe)
 
-### Configurer l'authentification locale pour Telnet (optionnel) :
+### Configurer l'authentification locale pour Telnet :
 
     #configure aaa authentication telnet local
 
