@@ -5,29 +5,11 @@
     #create vlan (nom du vlan ex: admin) tag (numéro vlan souhaité ex: 50)
     #configure (numéro du vlan admin donc 50 dans mon cas) ipaddress (ip) (masque)
 
-### Génerer une clé SSH :
-
-    #generate ssh rsa
-
-### - Configuration d'un utilisateur SSH :
-
-    #configure aaa user add (username) password (monmotdepasse)
-
-
 ### - Activation du SSH :
 
     #enable ssh
 
-### - Configuration de l'authentification SSH local :
-
-    #configure aaa authentication ssh local
-
-
-### Vérification :
-
-    #show aaa
-    #show ssh
-
+Une clé va se génerer automatiquement.
 
 ## Connexion au SSH :
 
@@ -49,8 +31,3 @@ Il faut saisir :
   - séléctonner ssh
 
 Puis cliquez sur "Open"
-
-
-#### 2 - Terminal
-
-    #ssh admin@(ip du vlan admin)
