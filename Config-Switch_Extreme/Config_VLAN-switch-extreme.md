@@ -5,6 +5,10 @@
 	#Create vlan (nom du vlan) tag (num vlan)
 
 
+### - Supprimer un VLAN :
+
+	#delete vlan (nom du vlan)
+
 ### - Ajouter un descriptions à un port :
 
 	#configure port 1 display-string "voir déscription"
