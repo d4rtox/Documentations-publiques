@@ -8,3 +8,6 @@
 
     #enable ipforwarding
 
+### Activer les vlan :
+
+    #enable loopback-mode vlan (nom du vlan)
