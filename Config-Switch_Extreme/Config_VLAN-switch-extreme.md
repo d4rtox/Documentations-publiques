@@ -28,11 +28,9 @@
 
 	#configure vlan (nom du vlan)  add ports (numéro du port) untagged
 
+### Garder un vlan actif si rien est branché :
 
-### - Activer l'INTER-VLAN :
-
-	#enable ipforwarding VLAN (nom de vlan)
-
+	#enable loop-backmode (vlan)
 
 ### - Sauvegarder la configuration :
 
