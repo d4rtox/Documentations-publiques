@@ -2,7 +2,7 @@
 
 ### Pré-requis :
 
-    - 2 vlan minimum avec une IP
+- 2 vlan minimum avec une IP
 
 ### Activer l'intervlan :
 
