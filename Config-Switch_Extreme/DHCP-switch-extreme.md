@@ -12,7 +12,7 @@
     #enable dhcp ports ( range de port) vlan (nom de vlan)
 
 
-### - Configuration du range d'adresse IP :
+### - Configuration du plages d'adresse IP :
 
     #configure vlan (nom du vlan) dhcp-address-range (adresse de début - adresse de fin)
 
